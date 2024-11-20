@@ -2,7 +2,6 @@ import pandas as pd
 import talib
 
 label = pd.read_csv("raw_data/100_label.csv")
-margin = pd.read_csv("raw_data/100_feature_past_6_months_margin_short.csv")
 ohlcv = pd.read_csv("raw_data/100_feature_past_6_months_ohlcv.csv")
 industry = pd.read_csv("raw_data/stock_industry.csv")
 
