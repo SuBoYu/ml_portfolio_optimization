@@ -57,7 +57,7 @@ We uses result.csv file as the dataset to train and test the machine learning mo
 - **Drop**: `'avgprice'`, `'medprice'`, `'typprice'`
 - **Keep**: `'wclprice'`
 
-### Cycle Indicators=
+### Cycle Indicators
 - **Keep**: HT_DCPHASE (-45 to 315)
 - **Drop**: HT_PHASOR (proportional to stock price)
 - **Pending**: HT_DCPERIOD, HT_SINE (similar to HT_DCPHASE), HT_TRENDMODE (always returns 1 or 0 instead of -1 as documented)
